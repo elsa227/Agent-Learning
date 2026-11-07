@@ -1,3 +1,5 @@
+# 【功能说明】使用Gradio库创建一个简单的图像处理应用，包括图像灰度化、反色处理、高斯模糊和颜色减淡效果
+
 import cv2  # 导入 OpenCV 库，专门用来做图像处理（比如滤镜、模糊、边缘检测）
 import numpy as np  # 导入 NumPy 库，它能把图片变成数字矩阵进行数学加减乘除（起个外号叫 np 方便打字）
 import gradio as gr  # 导入 Gradio 库，用来一键生成网页界面（起个外号叫 gr）
