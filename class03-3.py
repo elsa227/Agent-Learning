@@ -1,3 +1,5 @@
+# 【功能说明】创建一个简单的Deepseek模型调用应用，支持与Deepseek模型进行对话
+
 import gradio as gr
 import os  #用于访问环境变量
 from openai import OpenAI  #OpenAI 兼容API的客户端库，用于调用通义千问
